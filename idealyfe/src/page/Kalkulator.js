@@ -1,8 +1,8 @@
 import React from 'react';
 import Navigation from '../cmp/Navigation'
-import './Home.css';
+import './Kalkulator.css';
 
-const Home = () => {
+const Kalkulator = () => {
     return (
         <div>
             {/* Header Section */}
@@ -25,4 +25,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Kalkulator;
