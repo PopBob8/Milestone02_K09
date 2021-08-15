@@ -2,19 +2,14 @@ import React from 'react';
 import './Home.css';
 
 import Navbar from '../components/Navbar';
+import Header from '../components/Header';
 
 const Home = () => {
     return (
         <div>
-            <Navbar/>
-
-            {/* Header Section */}
-            <div className="header">
-                <div className="header_container">
-                    <h1>Idealyfe</h1>
-                    <p>Your Solution for A Better <b>Life</b></p>
-                </div>
-            </div>
+            <Navbar />
+            <Header />
+            
             {/* About Section */}
             <div className="about">
                 <div className="about_container">
