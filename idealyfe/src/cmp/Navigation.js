@@ -1,8 +1,13 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+
+import Tips from '../page/Tips';
+import Home from '../page/Home';
+import Button from './TextButton';
 
 const Navigation = () => {
     return (
-        <div>  
+        <div>
             <BrowserRouter>
                 <div>
                   <Link to="/"><Button title="Home"/></Link>
@@ -11,9 +16,8 @@ const Navigation = () => {
 
                   <Switch>
                     <Route path="/" exact>
-                      <Default />
+                      <Home />
                     </Route>
-
                     <Route path="/tips" exact>
                       <Tips />
                     </Route>
@@ -22,3 +26,5 @@ const Navigation = () => {
         </div>
     )
 }
+
+export default Navigation;

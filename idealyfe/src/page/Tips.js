@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Card from '../cmp/card';
 
-class Tips extends Component {
-    render() {
-        return (
-            <div>
-                <Card />
-            </div>
-        );
-    }
+const Tips = () => {
+    return (
+        <div>
+            <Card />
+        </div>
+    )
 }
 
 export default Tips;
