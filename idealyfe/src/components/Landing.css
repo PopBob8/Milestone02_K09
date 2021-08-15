@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 55vmin;
+  pointer-events: none;
+  margin-bottom: -50px;
+}
+
+.App-bar {
+  height: 55vmin;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-bar {
+    animation : App-bar-spin infinite 1.5s linear alternate;
+    transform-origin: 276px ;
+    transform-box: view-box;
+
+  }
+}
+
+.App-header {
+  background-color: #56CCF2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-bar-spin {
+  from {
+    transform: rotateZ(-8deg);
+  }
+  to {
+    transform: rotateZ(8deg);
+  }
+}

@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from '../cmp/header';
-import Card from '../cmp/card';
+import Header from '../components/Header';
+import Card from '../components/Card';
 
 const Tips = () => {
     return (
         <div>
-            <Header />
-            <Card />
         </div>
     )
 }
