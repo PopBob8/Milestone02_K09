@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './App.css'
+import Card from './cmp/card';
+// import logoLand from './logoLanding';
 
-
-const Main = () => {
-    return (
-        <div>
-
-        </div>
-    )
+class Tips extends Component {
+    render() {
+        return (
+            <div>
+                <Card />
+            </div>
+        );
+    }
 }
 
-export default Main
+export default Tips;
