@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Tips from './Tips';
+import Tips from './page/Tips';
 
 function App() {
   return (
