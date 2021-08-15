@@ -1,6 +1,6 @@
 # Tugas Milestone SPARTA
 
-    Kelompok 16
+    Kelompok 16 - Idealyfe
     Solution: Idealyfe (Your Perfect Solution for A Better Life)
 
 ## Nama - NIM anggota:
