@@ -1,10 +1,26 @@
 import React from 'react';
-import Navigation from '../cmp/Navigation'
 import './Home.css';
 
 const Home = () => {
     return (
         <div>
+            {/* Navbar Section */}
+            <nav className="navbar">
+                <div className="navbar_container">
+                    <img src="../../img/idealife_logo-01.png"></img>
+                    <ul className="navbar_menu">
+                        <li className="navbar_item">
+                            <a href="#home" className="navbar_links">Home</a>
+                        </li>
+                        <li className="navbar_item">
+                            <a href="#tips" className="navbar_links">Tips</a>
+                        </li>
+                        <li className="navbar_item">
+                            <a href="#kalkulator" className="navbar_links">Kalkulator</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             {/* Header Section */}
             <div className="header">
                 <div className="header_container">
