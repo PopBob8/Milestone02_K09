@@ -6,10 +6,21 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />,
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// const rootElement = document.getElementById("root");
+//     ReactDOM.render(
+//       <BrowserRouter>
+//        <Switch>
+//         <Route exact path="/" component={Page1} />
+//         <Route path="/page2" component={Page2} />
+//       </Switch>
+//       </BrowserRouter>,
+//       rootElement
+//     );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
