@@ -1,0 +1,62 @@
+
+/* Header Section */
+.header {
+    background: #56CCF2;
+    padding: 200px 0px;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    font-size: 100px;
+    margin-bottom: 1px;
+    color: white;
+}
+
+.header p {
+    font-size: 40px;
+    color: white;
+}
+
+/* About Section */
+.about {
+    background-color: bla;
+    padding: 10rem 0;
+}
+
+.about_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.about_content {
+    width: 100%;
+}
+
+.about_content h1 {
+    color:#56CCF2;
+    font-size: 60px;
+}
+
+.about_content p {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
