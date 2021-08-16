@@ -6,10 +6,10 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar_container">
-                <img src="../../img/idealife_logo_transparentbg.png" alt="Logo"></img>
+                <Link to="/" className="navbar_logo"><img src="../../img/idealife_logo_transparentbg.png" alt="Logo"></img></Link>
                 <ul className="navbar_menu">
                     <li className="navbar_item">
-                        <Link className="navbar_links" to="/"><b>Home</b></Link>
+                        <Link className="navbar_links" to="/home"><b>Home</b></Link>
                     </li>
                     <li className="navbar_item">
                         <Link className="navbar_links" to="/tips"><b>Tips</b></Link>

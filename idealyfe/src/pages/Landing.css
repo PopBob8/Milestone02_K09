@@ -1,32 +1,29 @@
-*{
+.Landing {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-bottom: 30px;
-}
-
-.App {
   text-align: center;
+  position: sticky;
 }
 
 .App-logo {
-  height: 55vmin;
+  height: 40vmin;
   pointer-events: none;
-  margin-bottom: -50px;
+  margin-bottom: -35px;
 }
 
 .App-bar {
-  height: 55vmin;
+  height: 40vmin;
   position: absolute;
   text-align: center;
-  top: 160px;
+  top: 136px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-bar {
     animation : App-bar-spin infinite 1.5s linear alternate;
-    transform-origin: 276px ;
+    transform-origin: 140px ;
     transform-box: view-box;
 
   }
@@ -56,4 +53,24 @@
   to {
     transform: rotateZ(8deg);
   }
+}
+
+.App-header h1 {
+  font-size: 100px;
+}
+
+.landing_button {
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #F27C54;
+  font-size: 16px;
+  position: relative;
+  top: 50px;
+}
+
+.landing_button:hover {
+  transform: scale(1.075);
 }
