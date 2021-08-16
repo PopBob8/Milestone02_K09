@@ -27,35 +27,15 @@
     color: white;
 }
 
-/* About Section */
-.about {
-    background-color: bla;
-    padding: 10rem 0;
-}
-
-.about_container {
+/* Calculator Section */
+.calculator {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    max-width: 1200px;
     margin: 0 auto;
     height: 90%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
-}
-
-.about_content {
-    width: 100%;
-}
-
-.about_content h1 {
-    color:#56CCF2;
-    font-size: 60px;
-}
-
-.about_content p {
-    color: black;
-    font-size: 20px;
-    text-align: justify;
+    text-align: center;
+    padding: 0px 30px 30px 30px;
 }
