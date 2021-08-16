@@ -31,7 +31,7 @@ function App() {
           />
         </p>
         
-        <Link to="/home" className="landing_button" ><button><b>Home</b></button></Link>
+        <Link to="/home" className="landing_button" ><button><b>Get Started</b></button></Link>
       </header>
     </div>
   );

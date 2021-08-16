@@ -36,14 +36,14 @@ const Home = () => {
                 <h1><b>Our Services</b></h1>
                 <div className="services_wrapper">
                     <div className="services_card">
-                        <h2><b>Tips</b></h2>
+                        <h2><b>Healthy Tips</b></h2>
                         <p>Several Tips For Your <b>Body</b></p>
-                        <Link className="services_btn" to="/tips"><button><b>Get Started</b></button></Link>
+                        <Link className="services_btn" to="/tips"><button><b>Read More</b></button></Link>
                     </div>
                     <div className="services_card">
                         <h2><b>BMI Calculator</b></h2>
                         <p>Calculate Your <b>Body Mass Index</b></p>
-                        <Link className="services_btn" to="/calculator"><button><b>Get Started</b></button></Link>
+                        <Link className="services_btn" to="/calculator"><button><b>Calculate Now</b></button></Link>
                     </div>
                 </div>
             </div>

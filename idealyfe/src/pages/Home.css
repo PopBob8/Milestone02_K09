@@ -6,19 +6,21 @@
 
 .about_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.3fr 1fr;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     height: 90%;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
-    padding: 0 50px;
+    max-width: 1700px;
+    padding: 0 100px;
 }
 
 .about_content {
     width: 100%;
+    /* position: relative;
+    right: 250px; */
 }
 
 .about_content h1 {
@@ -41,7 +43,7 @@
 }
 
 .about_img_card {
-    margin: 30px;
+    margin: 30px 10px 30px 30px;
     height: 200px;
     width: 200px;
     border-radius: 25px;

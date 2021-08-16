@@ -17,7 +17,7 @@
   height: 40vmin;
   position: absolute;
   text-align: center;
-  top: 136px;
+  top: 108px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -66,11 +66,13 @@
   outline: none;
   border-radius: 50px;
   background: #F27C54;
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   top: 50px;
 }
 
 .landing_button:hover {
-  transform: scale(1.075);
+  transform: scale(1.1);
+  background-color: white;
+  color: #F27C54;
 }

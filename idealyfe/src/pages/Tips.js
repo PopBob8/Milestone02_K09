@@ -63,6 +63,20 @@ const Tips = () => {
                         <a target="_blank" rel="noreferrer" href="https://medium.com/@nelsenputra/menjaga-berat-badan-ideal-dengan-pola-hidup-sehat-3064d2adcc0e" className="articles_btn" ><button><b>Baca Selengkapnya</b></button></a>
                     </div>
                 </div>
+                <div className="articles_wrapper">
+                    <div className="articles_card">
+                        <h2><b>Kisah Inspiratif Dewi Hughes, berhasil turun 90 kg</b></h2>
+                        <p>Ada banyak penyakit yang disebabkan akibat terlalu kurus maupun terlalu gemuk. Cari tahu agar kamu makin peduli dengan berat badan kamu!</p>
+                        <a target="_blank" rel="noreferrer" href="https://medium.com/@16520409/butuh-kisah-inspiratif-ingat-mba-dewi-hughes-dari-150kg-sekarang-hanya-60kg-a675a7f6a22e" className="articles_btn" ><button><b>Baca Selengkapnya</b></button></a>
+                    </div>
+                </div>
+                <div className="articles_wrapper">
+                    <div className="articles_card">
+                        <h2><b>YAKIN MASIH SUKA MALES MAKAN?? Awas Penyakit Jantung!</b></h2>
+                        <p>Ada banyak penyakit yang disebabkan akibat terlalu kurus maupun terlalu gemuk. Cari tahu agar kamu makin peduli dengan berat badan kamu!</p>
+                        <a target="_blank" rel="noreferrer" href="https://medium.com/@16520409/yakin-masih-suka-males-makan-awas-penyakit-jantung-49fd708e1f3c" className="articles_btn" ><button><b>Baca Selengkapnya</b></button></a>
+                    </div>
+                </div>
             </div>
 
             {/* Footer Section */}
