@@ -1,3 +1,4 @@
+/* Navbar Section */
 .navbar {
     background: #56CCF2;
     height: 80px;
@@ -16,9 +17,16 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
     margin: 0 auto;
+    max-width: 1500px;
     padding: 0 50px;
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 .navbar_menu {
@@ -41,6 +49,8 @@
     height: 100%;
 }
 
-.navbar_links hover {
+/* Background color berubah ketika hover */
+.navbar_links:hover {
+    background-color: white;
     color: #F27C54;   
 }

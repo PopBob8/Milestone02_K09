@@ -5,7 +5,8 @@
 }
 
 .about_container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -29,4 +30,106 @@
     color: black;
     font-size: 20px;
     text-align: justify;
+}
+
+.about_content p b1 {
+    color: #56CCF2;
+}
+
+.about_img_container {
+    text-align: center;
+}
+
+.about_img_card {
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #56CCF2;
+}
+
+/* Services Section */
+.services {
+    background: #56CCF2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 160px 0;
+}
+
+.services h1 {
+    color: white;
+    margin-bottom: 60px;
+    font-size: 60px;
+}
+
+.services_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.about_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.services_card {
+    margin: 10px;
+    height: 425px;
+    width: 739px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.services_card h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.services_card p {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.services_card:hover {
+    transform: scale(1.025);
+}
+
+.services_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px
+}
+
+.services_card button {
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background: #F27C54;
+    font-size: 16px;
+}
+
+.services_card button:hover {
+    transform: scale(1.075);
 }
