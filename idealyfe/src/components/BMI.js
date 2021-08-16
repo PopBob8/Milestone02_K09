@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Helmet } from 'react-helmet';
-import './BMI.css';
-
 
 export default function App() {
   const [height, setHeight] = useState("");
