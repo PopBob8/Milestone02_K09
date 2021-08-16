@@ -2,10 +2,17 @@ import React from 'react';
 import './Home.css';
 import { Link } from "react-router-dom";
 import Header from '../components/Header';
+import Navbar from '../components/Navbar';
+import { Helmet } from 'react-helmet';
+import Footer from '../components/Footer';
 
 const Home = () => {
     return (
         <div>
+            <Navbar />
+            <Helmet>
+                <style>{'body { background-color: #56CCF2; }'}</style>
+            </Helmet>
             {/* Header Section */}
             <Header />
 
@@ -40,6 +47,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Footer Section */}
+            <Footer />
         </div>
     )
 }

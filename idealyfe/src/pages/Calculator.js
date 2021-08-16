@@ -1,10 +1,13 @@
 import React from 'react';
 import './Calculator.css';
 import BMI from '../components/BMI';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Calculator = () => {
     return (
         <div>
+            <Navbar />
             {/* Header Section */}
             <div className="header">
                 <div className="header_container">
@@ -19,6 +22,9 @@ const Calculator = () => {
                     <BMI />
                 </div>
             </div>
+
+            {/* Footer Section */}
+            <Footer />
         </div>
     )
 }

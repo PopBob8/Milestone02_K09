@@ -1,15 +1,25 @@
 import React from 'react';
 import './Tips.css';
+import Navbar from '../components/Navbar';
+import { Helmet } from 'react-helmet';
+import Footer from '../components/Footer';
 
 const Tips = () => {
     return (
         <div>
+            <Helmet>
+                <style>{'body { background-color: #56CCF2; }'}</style>
+             </Helmet>
+            <Navbar />
+            {/* Header Section */}
             <div className="header">
                 <div className="header_container">
                     <h1><b>Tips</b></h1>
                     <p>Here's Our Tips For <b>You</b></p>
                 </div>
             </div>
+
+            {/* Articles Section */}
             <div className="articles">
                 <div className="articles_wrapper">
                     <div className="articles_card">
@@ -54,6 +64,9 @@ const Tips = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Footer Section */}
+            <Footer />
         </div>
     )
 }
