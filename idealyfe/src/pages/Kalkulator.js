@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from '../cmp/Navigation'
 import './Kalkulator.css';
 
 const Kalkulator = () => {
